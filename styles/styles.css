@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+.face img {
+	width: 15%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15%;
+	margin-bottom: auto;
+	border: solid black;
+	border-radius: 100%;
+	z-index: 3;
+	
+}
+.indexcontent { 
+position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.smallicons {
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.smallicons img {
+	width: 4%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	margin-bottom: auto;
+	position: relative;	
+	border: solid black;
+	border-radius: 100%;
+}
+.arrowdownone a:hover img {
+	background-color: white;
+}
+#facebook {
+	width: 6%;
+}
+
+.firstbackground {
+	  background-image: url(../images/madamonkeybackground.png);
+		
+}
+.secondbackground {
+	background-image: url(../images/tigerbackground.png)
+}
+.interest {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+color: white;
+	margin-left: auto;
+	margin-right: 5%;
+	position: relative;
+	display: block;
+	margin-top: 5%;
+	font-size: 150%;
+	text-align: center;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.text {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+color: white;
+	line-height: 300%;
+	margin-top: 5%;
+	text-align: center;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 110%;
+}
+.text .jobs {
+	float: right;
+}
+.text .filmcv {
+	float:left;
+	margin-left: 2%;
+	margin-top: 3%;
+}
+.arrowdowntwo {
+	margin-top: 35%;
+	margin-left: auto;
+	margin-right: 5%; 
+}
+.arrowdowntwo a:hover img {
+	background-color: white;
+}
+/*
+.jobs {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: antiquewhite;
+	margin-left: 60%;
+	margin-top: 11%;
+	text-align: center;
+	line-height: 300%;
+	display: block;
+	border: solid black;
+
+}
+.filmcv {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: antiquewhite;
+	line-height: 300%;
+	text-align: center;
+	margin-right: 65%;
+margin-bottom: 50%;
+	border: solid black;
+}*/
