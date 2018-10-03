@@ -1,9 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+html{
+ height: 100%;
+ width: 100%;
+}
+
 body {
 	font-family: 'Roboto', sans-serif; 
-	
+	width: auto;
+ height: auto;
+	overflow: none;
 }
 .indexcontent {
 	
@@ -73,7 +80,8 @@ color: white;
 	text-align: center;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-.text {
+/*hele diven med både mine film og jobs*/
+div.text {
 	
 color: white;
 	line-height: 300%;
@@ -82,23 +90,28 @@ color: white;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	font-size: 110%;
 }
+/*mine jobs paragraf text højre*/
 .text .jobs {
 	float: right;
 	font-size: 100%;
+	
 }
+/*mine film paragraf text venstre*/
 .text .filmcv {
 	float:left;
 	margin-left: 2%;
 	margin-top: 3%;
-	
+	border-color: solid black;
 }
-.arrowdowntwo {
-	
-align-content: center;
-	margin-left: auto;
+.arrowdowntwo img {
+	margin-left: 46%;
 	margin-right: auto;
-	margin-top: 30%;
-	
+	align-content: center;
+	width: 7%;
+	height: auto;
+	border: solid black;
+	margin-top: 28%;
+	border-radius: 100%;
 }
 .arrowdowntwo a:hover img {
 	background-color: white;
