@@ -1,5 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+	font-family: 'Roboto', sans-serif; 
+	
+}
+.indexcontent {
+	
+}
 
 .face img {
 	width: 15%;
@@ -7,21 +15,14 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 15%;
+	margin-top: 10%;
 	margin-bottom: auto;
 	border: solid black;
 	border-radius: 100%;
 	z-index: 3;
 	
 }
-.indexcontent { 
-position: fixed;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-  margin-left: 20px;
-  margin-right: 20px;
-}
+
 .smallicons {
 	margin-left: auto;
 	margin-right: auto;
@@ -48,13 +49,20 @@ position: fixed;
 
 .firstbackground {
 	  background-image: url(../images/madamonkeybackground.png);
-		
-}
+background-size: cover; }
 .secondbackground {
-	background-image: url(../images/tigerbackground.png)
+	background-image: url(../images/tigerbackground.png);
+	background-size: cover; }
+.thirdbackground {
+	background-image: url(../images/backstagepicbackground.png); 
+  background-size: cover; }
+.fourthbackground {
+	background-image: url(../images/færdigbrobackground.png);
+	 background-size: cover; 
 }
+
 .interest {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
 color: white;
 	margin-left: auto;
 	margin-right: 5%;
@@ -66,7 +74,7 @@ color: white;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .text {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
 color: white;
 	line-height: 300%;
 	margin-top: 5%;
@@ -76,38 +84,136 @@ color: white;
 }
 .text .jobs {
 	float: right;
+	font-size: 100%;
 }
 .text .filmcv {
 	float:left;
 	margin-left: 2%;
 	margin-top: 3%;
+	
 }
 .arrowdowntwo {
-	margin-top: 35%;
+	
+align-content: center;
 	margin-left: auto;
-	margin-right: 5%; 
+	margin-right: auto;
+	margin-top: 30%;
+	
 }
 .arrowdowntwo a:hover img {
 	background-color: white;
+	
 }
-/*
-.jobs {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	color: antiquewhite;
-	margin-left: 60%;
-	margin-top: 11%;
-	text-align: center;
-	line-height: 300%;
-	display: block;
+.arrowdownthree img {
+margin-left: auto;
+	margin-right: auto;
+	align-content: center;
+	width: 10%;
+	height: auto;
 	border: solid black;
+	margin-top: 12%;
+	border-radius: 100%;
+}
+.arrowdownthree a:hover img {
+	background-color: white;
+}
+/*alt text i project*/
+div.projectcontent {
+color: white;
+	line-height: 300%;
+	margin-top: 5%;
+	text-align: center;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 110%;
+	width: 100%;
+	margin-left: auto;;
+	margin-right: auto;
+	
+}
+h1 {
+	
+	font-size: 350%;
+}
+.projecttext {
 
-}
-.filmcv {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	color: antiquewhite;
-	line-height: 300%;
 	text-align: center;
-	margin-right: 65%;
-margin-bottom: 50%;
-	border: solid black;
-}*/
+	width: 46%;
+	font-size: 130%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.projectlink {
+	font-size: 100%;
+	width: 35%;
+	color:white;
+}
+.sideprojecttext {
+	text-align: center;
+}
+.contactoverskrift {
+	color: white;
+	line-height: 100%;
+	margin-top: 1%;
+	text-align: center;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 400%
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: orange;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: darkorange;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	width: 50%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+}
+/*TOP MENUEN*/
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+	width: 20%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: darkorange;
+    color: black;
+}
